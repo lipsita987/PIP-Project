@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="148.718049">
+<testcase classname="Cogmento CRM Create Contacts" name="Cogmento CRM Create a new contact scenario" time="62.16105">
+<system-out><![CDATA[Given user is already on Login page.........................................passed
+When Title of login page is Cogmento CRM....................................passed
+Then User enters "lipsita.987@gmail.com" and "indu123$".....................passed
+Then User clicks on Login button............................................passed
+Then User is on HomePage....................................................passed
+Then user moves to new contact page.........................................passed
+Then user enters contact details "Tom" and "Peter" and "Manager"............passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cogmento CRM Create Contacts" name="Cogmento CRM Create a new contact scenario 2" time="42.118931">
+<system-out><![CDATA[Given user is already on Login page.........................................passed
+When Title of login page is Cogmento CRM....................................passed
+Then User enters "lipsita.987@gmail.com" and "indu123$".....................passed
+Then User clicks on Login button............................................passed
+Then User is on HomePage....................................................passed
+Then user moves to new contact page.........................................passed
+Then user enters contact details "John" and "Smith" and "Developer".........passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cogmento CRM Create Contacts" name="Cogmento CRM Create a new contact scenario 3" time="44.438068">
+<system-out><![CDATA[Given user is already on Login page.........................................passed
+When Title of login page is Cogmento CRM....................................passed
+Then User enters "lipsita.987@gmail.com" and "indu123$".....................passed
+Then User clicks on Login button............................................passed
+Then User is on HomePage....................................................passed
+Then user moves to new contact page.........................................passed
+Then user enters contact details "Javed" and "Ali" and "Tester".............passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
