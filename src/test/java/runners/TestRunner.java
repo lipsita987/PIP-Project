@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 	@CucumberOptions(
 			
 			features = "F:/Automation/AutomationWorkspace/cucumber_project/src/test/java/features/Contact.feature", //the path of the feature files
-			glue={"stepDefination"} ,//the path of the step definition files	
+			glue={"stepDefination"} ,	
 			monochrome = true, //display the console output in a proper readable format
 			strict = true,   //it will check if any step is not defined in step definition file
 			dryRun =false, //to check the mapping is proper between feature file and step def file			
