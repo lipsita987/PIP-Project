@@ -31,8 +31,8 @@ public class ContactStepDefination {
 
 	@Given("^user is already on Login page$")
 	public void user_is_already_on_Login_Page() {		
-		WebDriverManager.chromedriver().version("80.0.3987.106").setup();
-		System.getProperty("webdriver.chrome.driver", "F:\\Downloads\\chromedriver.exe");
+		WebDriverManager.chromedriver().version("83.0.4103.39").setup();
+		System.getProperty("webdriver.chrome.driver", "F:\\Downloads\\chromedriver83.exe");
 		driver = new ChromeDriver();
 		driver.get("https://freecrm.co.in/");			
 		driver.manage().window().maximize();
